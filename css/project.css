@@ -1,0 +1,204 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;            
+    }
+        
+body{
+    background-color: black;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;          
+    }
+        
+a{
+    text-decoration: none;
+    }
+
+.vl{
+    border-left: 6px solid green;
+    height: 40px;
+    }
+
+.nav-link:hover {
+    background-color: #34495E;
+    }
+
+.header {
+    transition: transform 0.3s ease-in-out;
+    }
+
+.header:hover {
+    transform: scale(1.4);
+    }
+
+.header{
+    color: white;
+    font-family: Edwardian Script ITC;
+    font-size: 100px;
+    text-align: center;
+    }
+
+.middle{
+    color: #D6DBDF;
+    font-family: Copperplate Gothic Light;
+    font-size: 20px;
+    text-align: center;
+    }
+
+.inline{
+    width:100%;
+    height:auto;
+    background-color:black;
+    display:flex;
+    } 
+
+.header1{
+    color: white;
+    font-family: Copperplate Gothic Light;
+    font-size: 30px;
+    width: 90%;
+    text-align: center;
+    }
+
+.footer1{
+    color: #D6DBDF;
+    font-family:Calibri Light;
+    font-size: 23px;
+    width: 90%;
+    text-align: center;
+    }
+
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+.nav-link{
+    font-family: Copperplate Gothic Light;
+    }
+
+.navbar-brand{
+    font-family: Bahnschrift SemiBold;
+    font-size: 20px;
+    }
+
+.s1{
+    color: cyan;
+    }
+
+.footer2{
+    color: #D6DBDF;
+    font-family:Calibri Light;
+    font-size: 23px;
+    width: 100%;
+    text-align: center;
+    }
+
+.a1{
+    font-family: Ink Free;
+    font-size: 100px;
+    color: white;
+    }
+
+.a2{
+    font-family: Agency FB;
+    font-size: 200px;
+    color: #A2D9CE;
+    }
+
+.t1{
+    color: white;
+    font-family: Bahnschrift SemiBold;
+    }
+
+.card-title{
+    font-family: Copperplate Gothic Light;
+    }
+
+.card-text{
+    font-family:Calibri Light;
+    }
+
+.a{
+    height: 15px;
+    }
+
+.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    }
+
+.scrollmenu card {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    }
+
+.card{
+    display: inline-block;
+    }
+
+.scrollmenu card:hover {
+    background-color: #777;
+    }
+
+.icon{
+    height: 30px;
+    }
+
+.icon:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+    }
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+.lg{
+    height: 20px;
+    }
+
+
+.so{
+    text-align: center;
+    color: #D6DBDF;
+    font-family: Copperplate Gothic Light;
+    }
+
+#flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #D6DBDF;
+    border: solid 1px #c3c3c3;
+    }
+
+#panel {
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+    border: solid 1px black;
+    display: none;
+    }
